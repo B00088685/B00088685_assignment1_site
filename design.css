@@ -1,0 +1,182 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	background-color: pink;
+	font-size: 0px;
+}
+
+#container{
+	width:   1000px;
+	height:  585px;
+	margin-top:30px;
+	margin-left: 112px;
+	padding-bottom: 0px;
+	background-color: #e6e6e6;
+}
+
+
+
+/* this is the css for the main div */
+#center{
+	width: 1000px;
+	height: 585px;
+	background-color: blue;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+/* this is the css for the heading */
+h1{
+	background-color: yellow;
+	color: blue;
+	font-size: 40px;
+	text-align: center;
+	font-size:  xx-large;
+    font-family:  cursive;
+    text-shadow:  4px 3px black;
+   
+}  /* with blurring */
+
+
+
+/* this is the css for the image on the nav bar */
+#ak1{
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	z-index: 1;
+	
+}
+
+
+/* this is the css for the div that contains the image on the nav bar */
+#ak{
+    position: absolute;
+	top: 3px;
+	left: 975px;
+	z-index: 1;
+}
+
+
+/* this is the css for the images of my design work */
+#one{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 6px solid yellow;
+	vertical-align: top;
+	margin: 10px;
+	margin-left: 50px;
+}
+
+#two{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 6px solid yellow;
+	vertical-align: top;
+	margin: 10px;
+}
+
+#three{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 6px solid yellow;
+	vertical-align: top;
+	margin: 10px;
+}
+
+#four{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 6px solid yellow;
+	vertical-align: top;
+	margin: 10px;
+}
+
+#five{
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	border: 6px solid yellow;
+	vertical-align: top;
+	margin: 10px;
+	margin-left: 230px;
+}
+
+#six{
+	width: 300px;
+	height: 200px;
+	display: inline-block;
+	border: 6px solid yellow;
+	vertical-align: top;
+	margin: 10px;
+}
+
+
+
+
+/* this is the css for the footer */
+footer{
+	position: absolute;
+	top: 597px;
+	left: 580px;
+	bottom: 0px;
+	font-size: 20px;
+
+}
+
+
+/* this is the css for the nav bar */
+#nav{
+    position: absolute;
+	top: 3px;
+	left: 1052px;
+}
+
+nav{
+	padding: 0px;
+	
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+
+nav li {
+	float: left;
+	
+}
+ 
+ 
+ 
+ nav a:link, nav a:visited {
+     display: block;
+     width: 60px;
+     font-weight: bold;
+     color: black;
+     text-align: center;
+     padding: 4px;
+     text-decoration: underline;
+     text-transform: uppercase;
+	 background-color: white;
+	 font-size: 16px;
+ }
+ 
+ 
+ 
+ nav a:hover, nav a:active {
+	opacity: 0.6;
+	background-color: pink;
+	color: #808080;
+ }
